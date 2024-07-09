@@ -15,6 +15,7 @@ A.	Making of Virtual Design
 The design was made with proper dimensions and exact mechanism as shown in Fig 1. The software used to accomplish the virtual design is Autodesk fusion 360 [7]. Further the components in the design were 3D printed by using PLA filament (Fig 2 and Fig 3) as printing material.
 
 <img width="319" alt="Screenshot 2024-07-09 at 7 46 18 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/f94bad58-31e9-4a3e-8e97-381117fd9f98">
+
 Fig. 1  Virtual 3D design
 
 
