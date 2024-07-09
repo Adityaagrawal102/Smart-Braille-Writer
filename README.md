@@ -18,23 +18,18 @@ The design was made with proper dimensions and exact mechanism as shown in Fig 1
 
 Fig. 1  Virtual 3D design
 
-
- 
+<img width="290" alt="Screenshot 2024-07-09 at 7 48 30 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/3f8704e2-d178-4239-9cdc-b4b0d6ec9bef">
 
 Fig. 2  3D printed base
 
-
- 
+<img width="310" alt="Screenshot 2024-07-09 at 7 48 59 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/77acd300-d70c-4631-9268-137571870dea"> 
 
 Fig. 3  3D printed elevation impression board
-
-
 
 B.	Reliable Dot Raising Mechanism
 A proper dot raising mechanism which can be reliable and in a smooth working status was designed (Fig 4). Paper clips were used to lift the dot through servo motor hub. By making servo motor rotate between 0 and 90 degrees, we were able to raise the particular dot.
 
-
- 
+<img width="211" alt="Screenshot 2024-07-09 at 7 49 31 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/64a4658b-3a6b-45e2-be97-acedb3e01024">
 
 Fig. 4  Dot raising mechanism
 
@@ -43,46 +38,29 @@ C.	Assembling all the components
 All the 3D printed components were assembled according to the design also the paper clips were attached to each servo motor for dot raising mechanism (fig. 5). Each servo motor was attached to the Arduino UNO via PCA9685 (Fig. 6)[8].
 
 
- 
+ <img width="265" alt="Screenshot 2024-07-09 at 7 50 01 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/3e9bca3d-a14c-42eb-96b8-f6cce2784900">
 
 Fig. 5  System assembly
 
-
-
- 
+<img width="287" alt="Screenshot 2024-07-09 at 7 50 19 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/7eabb252-0f29-46f4-adc7-c163f617d438">
 
 Fig. 6   Servo motor connection
    
 D.	Programming
 Later on, our device needed some instructions to do task on itself. We used Python as the base language for programming.  Python libraries such PyAudio and Speech recognition were used to convert the input in the form of speech to Braille language. Also, in addition PyTesseract library was used to convert the given text into Braille Language[9]. The device is programmed according to the Optical Character Recognition (OCR) technology. Anaconda prompt was used as a terminal in the device.
-IV.	APPLICATION
-
-BLIND	DEAF	DUMB	NORMAL
-TO
-IMPAIRED	IMPAIRED
-TO
-NORMAL
-YES	NO	NO	Direct	Direct
-NO	YES	NO	Speech to sign language	Direct
-NO	NO	YES	Direct	Sign language to speech / text
-YES	YES	NO	Speech to braille	Direct
-YES	NO	YES	Direct	Sign language to speech / text
-NO	YES	YES	Speech to sign language	Sign language to speech / text
-YES	YES	YES	Speech to braille	Sign language to speech / text
-
 
 V.	RESULT
 The aim of the project was to have a hurdle less and an efficient conversation between the physically impaired person and the normal person which we achieved as we had deduced it to be. 
 Speech to Braille language
 Whenever we speak any word in front of the device it converts it into braille language (fig. 7). For doing this it uses PyAudio python library[10]. A continues internet connection is required for achieving the desired result.
 
- 
+ <img width="189" alt="Screenshot 2024-07-09 at 7 51 17 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/740932df-538c-4992-aac0-460cfd8c4629">
 
 Fig. 7  Speech to Braille Language
 Text to Braille language
 Whenever we show any text to the camera (which is attached to the device), the text is converted into braille language (Fig. 8). The device uses Optical Character Recognition (OCR) technology to achieve above result.
 
- 
+ <img width="280" alt="Screenshot 2024-07-09 at 7 51 37 PM" src="https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/6d77f524-7e8f-4058-8333-d33b9975bbbf">
 
 Fig. 8  Text to Braille language
 ![image](https://github.com/Adityaagrawal102/Smart-Braille-Writer/assets/143272577/e66030dd-51d0-40ca-bf08-4691ce193bce)
